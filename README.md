@@ -5,6 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+### `npm install`
 
 ### `npm start`
 
@@ -70,4 +71,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 # Task Detailes
+
+  1. Create a landing page with the list of users given in the json file
+  2. On clicking userid from the table, redirect to a profile page which shows the specific user data
+  3. Show all the variables listed in the json file in the profile page
+  4. Maintain a single datetime format in the profile page
+  5. Add some random graphs/charts in the profile page
+  6. Add a pop-up form design to edit data in the profile page with success/failure alert boxes on form-submit
+
   
