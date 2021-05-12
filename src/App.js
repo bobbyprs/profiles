@@ -31,6 +31,11 @@ console.log(props.userprofile)
       </Container>
     </main>
       </BrowserRouter>
+      <footer className='page-footer  pt-4'>
+      <div style={{backgroundColor:'#E5E5E5'}} className='footer-copyright text-center py-3'>
+      © 2020 Copyright:Profile App
+      </div>
+      </footer>
       </div>
    
   );
