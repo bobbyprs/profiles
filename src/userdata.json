@@ -1,0 +1,178 @@
+{
+  "profile": [
+    
+      {
+        "user": {
+          "userid": "1",
+          "name": {
+            "first": "John",
+            "last": "Doe",
+            "short": "JD",
+            "title": "Mr"
+          },
+          "email": "johndoe@kg.com",
+          "contact": "0123456789",
+          "contact-ext": "+001",
+          "joindate": "02-Jan-2018",
+          
+          "picture": {
+            "large": "https://randomuser.me/api/portraits/men/75.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/75.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+          }
+        },
+        "team": "marketing",
+        "jobtitle": "Designer",
+        "lastlogin": {
+          "datetime": "2020-01-21 23:04:06"
+       
+        },
+        "loggedIn": false
+      },
+   
+      {
+        "user": {
+          "userid": "2",
+          "name": {
+            "first": "John",
+            "last": "Skeet",
+            "short": "JS",
+            "title": "Mr"
+          },
+          "email": "johnskeet@kg.com",
+          "contact": "0123456788",
+          "contact-ext": "+001",
+          "joindate": "22-Feb-2018",
+          
+          "picture": {
+            "large": "https://randomuser.me/api/portraits/men/74.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/74.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/74.jpg"
+          }
+        },
+        "team": "marketing",
+        "jobtitle": "Sales head",
+        "lastlogin": {
+          "datetime": "2020-01-21 20:04:10"
+          
+        },
+        "loggedIn": false
+      },
+    
+      {
+        "user": {
+          "userid": "3",
+          "name": {
+            "first": "Ruby",
+            "last": "Perry",
+            "short": "RB",
+            "title": "Ms"
+          },
+          "email": "rubyperry@kg.com",
+          "contact": "0123458788",
+          "contact-ext": "+001",
+          "joindate": "01-Mar-2019",
+          
+          "picture": {
+            "large": "https://randomuser.me/api/portraits/women/28.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/28.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/28.jpg"
+          }
+        },
+        "team": "Research",
+        "jobtitle": "Research Associate",
+        "last-login": {
+          "datetime": "2020-01-21 03:04:56"
+          
+        },
+        "loggedIn": false
+      },
+    
+      {
+        "user": {
+          "userid": "4",
+          "name": {
+            "first": "Stella",
+            "last": "Brown",
+            "short": "SB",
+            "title": "Ms"
+          },
+          "email": "stellaberry@kg.com",
+          "contact": "908765430",
+          "contactext": "+001",
+          "joindate": "31-Jan-2019",
+         
+          "picture": {
+            "large": "https://randomuser.me/api/portraits/women/29.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/29.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/29.jpg"
+          }
+        },
+        "team": "Research",
+        "jobtitle": "Research Associate - Intern",
+        "lastlogin": {
+          "datetime": "2020-01-21 23:54:06"
+          
+        },
+        "loggedIn": false
+      },
+   
+      {
+        "user": {
+          "userid": "5",
+          "name": {
+            "first": "Justin",
+            "last": "Knight",
+            "short": "JK",
+            "title": "Mr"
+          },
+          "email": "justin.knight@kg.com",
+          "contact": "000897689",
+          "contactext": "+001",
+          "joindate": "01-Jul-2018",
+        
+          "picture": {
+            "large": "https://randomuser.me/api/portraits/men/28.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/28.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/28.jpg"
+          }
+        },
+        "team": "Development",
+        "job-title": "Software Developer",
+        "lastlogin": {
+          "datetime": "2020-01-21 12:15:09"
+          
+        },
+        "loggedIn": true
+      },
+   
+      {
+        "user": {
+          "userid": "6",
+          "name": {
+            "first": "Tyler",
+            "last": "Holmes",
+            "short": "TH",
+            "title": "Mr"
+          },
+          "email": "tyler.holmes@kg.com",
+          "contact": "9876890123",
+          "contact-ext": "+001",
+          "joindate": "01-Jul-2018",
+          
+          "picture": {
+            "large": "https://randomuser.me/api/portraits/men/30.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/30.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/30.jpg"
+          }
+        },
+        "team": "Development",
+        "jobtitle": "Software Developer",
+        "last-login": {
+          "datetime": "2020-01-21 12:25:29"
+          
+        },
+        "loggedIn": true
+      }
+  ]
+}
