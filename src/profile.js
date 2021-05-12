@@ -6,10 +6,36 @@ import userdata from './userdata.json'
 import {useEffect,useState} from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { Chart } from 'react-charts'
 
 function Profile(props) {
     // const [userdata , setUserData] = useState('')
     const [username , setUsername] =useState('')
+    const [selectedDate, setSelectedDate] = React.useState(new Date('2014-08-18T21:11:54'))
+
+    const handleDateChange = (date) => {
+        setSelectedDate(date);
+      };
+
+
+    const data = React.useMemo(
+        () => [
+          {
+            label: 'Series 1',
+            data: [[0, 1], [1, 2], [2, 4], [3, 2], [4, 7]]
+          }
+          
+        ],
+        []
+      )
+     
+      const axes = React.useMemo(
+        () => [
+          { primary: true, type: 'linear', position: 'bottom' },
+          { type: 'linear', position: 'left' }
+        ],
+        []
+      )
     
     useEffect(()=>{
         props.userupdate(userdata.profile)
@@ -45,6 +71,17 @@ function Profile(props) {
                 <ToastContainer />
                 </Col>
            </Row>
+             <div>
+           <div style={{margin:'20px',padding:'30px'}} className='text-center'><h1>Activity</h1></div>
+           <div
+            style={{
+              width:'900px',
+              height: '600px'
+            }}>
+           <Chart data={data} axes={axes} />
+           </div>
+           </div>
+        
         </div>
     )
 }
